@@ -104,6 +104,8 @@ def movies_with_directors_set(source)
 
   while i < source.length do
      director_hash = source[i]
+     director_name = director_hash[:name]
+     director_movies= director_hash[:movies]
   end
 
 end
