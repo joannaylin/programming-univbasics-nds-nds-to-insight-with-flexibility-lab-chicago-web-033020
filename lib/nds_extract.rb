@@ -107,6 +107,7 @@ def movies_with_directors_set(source)
      director_name = director_hash[:name]
      director_movies= director_hash[:movies]
      result << movies_with_director_key(director_name, director_movies)
+     i += 1
   end
 
 end
