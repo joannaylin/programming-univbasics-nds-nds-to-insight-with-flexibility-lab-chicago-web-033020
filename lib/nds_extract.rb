@@ -48,6 +48,15 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
 
+  result = []
+  i = 0
+
+  while i < movies_collection do
+    movie_data = movies_collection[i]
+    movie_with_director_name(director_name,movie_data)
+    i += 1
+  end
+  
 
 end
 
